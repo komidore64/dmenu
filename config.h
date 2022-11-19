@@ -5,7 +5,7 @@
 static int topbar = 1;
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
-static const char *fonts[] = { "monospace:size=10" };
+static const char *fonts[] = { "Input:antialias=true:autohint=true:size=9" };
 
 /* -p option; prompt to the left of input field */
 static const char *prompt = NULL;
